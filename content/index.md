@@ -20,11 +20,11 @@ title: John's Telemetry
 
 You found my site. I'm John, and this is my log book. The log is a place I post my writings, ideas, and thoughts on various topics. It's an active second brain, so sometimes not everything is put together and as polished as you'd expect on a personal website.
 
-I'm an engineering executive at [General Motors](www.gm.com). My job is to deploy [[Autonomous Mobile Equipment |AME]] in the manufacturing environment. 
+I'm an engineering executive at [General Motors](www.gm.com). My job is to deploy [[Autonomous Mobile Equipment |AME]] in the manufacturing environment. This is where I focus the most of my attention on and where I spend a lot of time thinking about [[leadership]].
+
 ### Start Here
 - [[My Bio]]
 - [[What I Read Recently]]
-- [[build]]
 
 <hr>
 

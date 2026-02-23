@@ -269,3 +269,12 @@ h6,
 .article-title {
     text-transform: uppercase !important;
 }
+
+/* --- FULL-WIDTH INDEX GIF --- */
+img[src*="_scene_breakdown.gif"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 8px;
+    /* For a cohesive look */
+    margin-top: 1rem;
+}
