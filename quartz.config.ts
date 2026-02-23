@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "John's Telemetry",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Crimson Pro",
+        body: "Crimson Pro",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F0F2F5",
+          lightgray: "#E0DDD5",     // Container borders
+          gray: "#D1CCC2",          // Faint, thin celestial lines for the graph
+          darkgray: "#3A3A3A",      // The main body text (faded typewriter ink)
+          dark: "#1A1A1A",          // Bold headers and the interactive graph nodes (heavy ink)
+          secondary: "#6F8BC7",     // Links and current graph node
+          tertiary: "#7A6855",      // Hover states (faded sepia)
+          highlight: "rgba(0, 0, 0, 0.05)",
+          textHighlight: "rgba(122, 104, 85, 0.2)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#111318",         // Deep space / dark slate
+          lightgray: "#2A2A2A",
+          gray: "#3D3D3D",          // Graph lines in dark mode
+          darkgray: "#C4C4C4",
+          dark: "#EAEAEA",          // Graph nodes
+          secondary: "#6F8BC7",
+          tertiary: "#B5A492",
+          highlight: "rgba(255, 255, 255, 0.05)",
+          textHighlight: "rgba(181, 164, 146, 0.2)",
         },
       },
     },

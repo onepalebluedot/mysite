@@ -1,3 +1,271 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+a.internal {
+    font-weight: normal;
+}
+
+/* --- DATA FEED DIVIDERS --- */
+hr {
+    border: none;
+    border-top: 1px dashed var(--gray);
+    margin: 2rem 0;
+}
+
+/* --- SYSTEM LOG CALLOUTS --- */
+.callout {
+    background-color: rgba(27, 42, 65, 0.1) !important;
+    /* Space blue tint */
+    border: 1px solid #1B2A41 !important;
+    /* Space blue border */
+    border-radius: 2px;
+    box-shadow: none !important;
+    padding: 1.2rem;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    /* Match article font size */
+}
+
+
+
+.callout-title {
+    font-family: var(--codeFont);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px dotted var(--gray);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color) !important;
+}
+
+.callout[data-callout="hint"] {
+    --color: #1B2A41 !important;
+    /* Space blue */
+}
+
+.callout[data-callout="warning"] {
+    --color: #6c7075 !important;
+    /* Grey */
+    background-color: rgba(100, 100, 100, 0.1) !important;
+    border: 1px solid #6c7075 !important;
+}
+
+.callout-title .callout-icon {
+    /* Forces the callout icons to look like monochrome ink stamps */
+    filter: grayscale(100%);
+    opacity: 0.9;
+}
+
+.callout-content {
+    color: var(--darkgray);
+}
+
+.callout-content p,
+.callout-content ul,
+.callout-content ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.callout-content code {
+    font-size: 1em;
+    /* Match surrounding text size exactly */
+}
+
+/* --- CONSTELLATION GRAPH CONTAINER --- */
+.graph {
+    border: 1px solid var(--lightgray);
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+
+.graph>h3 {
+    font-family: var(--codeFont);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: var(--darkgray);
+    border-bottom: 1px dashed var(--lightgray);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* --- LESSWRONG STYLE TABLE OF CONTENTS --- */
+.left .toc {
+    margin-top: 3rem;
+    /* Extra space to ensure it never overlaps with the Explorer above */
+    position: relative;
+    padding-left: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-left: 1px solid var(--lightgray);
+    /* Thinner border for the main body-of-text line */
+    transition: all 0.3s ease;
+}
+
+/* Hide the default "Table of Contents" title and collapse button entirely */
+.left .toc .toc-header {
+    display: none;
+}
+
+/* Style the links container */
+.left .toc-content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left .toc-content li {
+    position: relative;
+    margin-bottom: 0.85rem;
+    line-height: 1.3;
+}
+
+/* Small tick marks for each heading */
+.left .toc-content li::before {
+    content: "";
+    position: absolute;
+    left: -12.5px;
+    /* Center on the 1px border. 10px padding + 1px border = 11. Half of 3px is 1.5. */
+    top: 0.55em;
+    width: 3px;
+    height: 3px;
+    background-color: var(--gray);
+    border-radius: 50%;
+}
+
+/* Slightly larger ticks for H2s to show hierarchy */
+.left .toc-content li.depth-1::before {
+    left: -13px;
+    width: 5px;
+    height: 5px;
+}
+
+/* --- THE ACTIVE SECTION OVERLAY BAR --- */
+/* We create a pseudo-element strictly for the thicker vertical line 
+   that tracks the user's focus, overlaying the thin main line. */
+.left .toc-content li:has(> a.in-view)::after {
+    content: "";
+    position: absolute;
+    left: -11px;
+    /* Align to overlap the 1px lightgray border perfectly */
+    top: 0;
+    bottom: 0;
+    /* Stretch the height of the entire li block */
+    width: 3px;
+    background-color: var(--darkgray);
+    z-index: 2;
+    /* Ensure it sits on top of the border and ticks */
+}
+
+/* Base text styling - hidden by default */
+.left .toc-content a {
+    display: inline-block;
+    color: var(--gray);
+    font-size: 0.85rem;
+    text-decoration: none;
+    max-width: 0;
+    /* Hide the text conceptually */
+    opacity: 0;
+    /* Hide visually */
+    overflow: hidden;
+    /* Prevent spilling out while hidden */
+    white-space: nowrap;
+    /* Keep on one line while animating */
+    transition: max-width 0.4s ease, opacity 0.4s ease, color 0.2s ease;
+    vertical-align: middle;
+    padding-left: 8px;
+}
+
+/* Darken the text for the section currently being read */
+.left .toc-content a.in-view {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+/* Specific text darkening on hover */
+.left .toc-content li a:hover {
+    color: var(--dark);
+}
+
+/* --- HOVER STATES --- */
+
+/* When hovering over the entire left panel area... reveal all the text */
+.left:hover .toc-content a {
+    max-width: 300px;
+    /* Expand enough to fit normal titles */
+    opacity: 1;
+}
+
+/* --- BODY FONT SIZE --- */
+article p,
+article li {
+    font-size: 1.1rem;
+    /* One touch bigger */
+    line-height: 1.6;
+}
+
+/* --- HOMEPAGE BANNER OVERLAY --- */
+.homepage-banner {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    /* Smooth rounded corners for a premium feel */
+    overflow: hidden;
+    /* Ensure the video respects the border radius */
+    aspect-ratio: 16 / 3;
+    /* Enforce the banner ratio so it doesn't jump on load */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark);
+    /* Fallback */
+    border: 1px solid var(--lightgray);
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Fill the entire container, cropping seamlessly if needed */
+    z-index: 1;
+    opacity: 0.8;
+    /* Slightly dim the video to ensure text contrast */
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    /* Put the text above the video */
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-family: var(--titleFont);
+    color: white;
+    /* Force white text so it pops against the space background */
+    font-size: 3rem;
+    /* Make it large and cinematic */
+    margin: 0;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+    /* Beautiful dark drop shadow for maximum legibility */
+    letter-spacing: 0.05em;
+}
+
+/* --- GLOBAL ALL CAPS HEADERS --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page-title,
+.article-title {
+    text-transform: uppercase !important;
+}
