@@ -1,0 +1,5 @@
+- [Social Capital 2022 Annual Letter](https://open.substack.com/pub/chamath/p/2022-annual-letter?r=jprzn&utm_campaign=post&utm_medium=web)
+- [What Older Dads Know](https://www.theatlantic.com/ideas/archive/2023/03/fatherhood-older-parents-second-marriage-kids/673294/)
+- [Welcome to a World Without Endings](https://www.theatlantic.com/technology/archive/2023/06/ai-hbo-max-content-creator-movie-credits/674295/) - note [[Scale Brain]]
+- [How Progressives Abandoned Progress For Process](https://plus.thebulwark.com/p/how-progressives-abandoned-progress-for-process?utm_campaign=post&utm_medium=web)
+- [Calpers ups VC allocation after 'lost decade'](https://pitchbook.com/news/articles/calpers-venture-asset-class-tiger-lightspeed)

@@ -18,7 +18,7 @@ AI has become a national-scale economic and geopolitical priority, and fragmente
 
 **2) SpaceX Targets $1.5 trillion IPO**
 
-[Elon has confirmed the speculation around SpaceX](https://x.com/elonmusk/status/1998900795207725073?s=20) pursuing an initial public offering in 2026, targeting an implied valuation around $1.5 trillion. This could allow the company to raise in excess of $30 billion, which would make it the largest IPO in history, right above the Saudi Aramco’s 2019 offering of $29.4 billion.
+[Elon has confirmed the speculation around SpaceX](https://x.com/elonmusk/status/1998900795207725073?s=20) pursuing an initial public offering in 2026, targeting an implied valuation around \$1.5 trillion. This could allow the company to raise in excess of \$30 billion, which would make it the largest IPO in history, right above the Saudi Aramco’s 2019 offering of \$29.4 billion.
 
 Elon has historically avoided going public with SpaceX due to the market’s short sighted timelines on the grander mission, but once he realized Starlink satellites could be architected into a distributed network of data centers, the writing was on the wall.
 

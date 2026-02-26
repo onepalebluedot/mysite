@@ -1,3 +1,9 @@
+---
+title: Test page 3
+tags:
+  - ai
+  - testing
+---
 ## A garden should be a true hypertext
 
 > The garden is the web as topology. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
