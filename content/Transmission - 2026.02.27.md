@@ -1,4 +1,7 @@
 #### 1. Article about Warner, Paramount bid
+
+Paramount improved their bid to $31 per share cash and some additional fees if the deal isn't closed by a certain date.
+
 #### 2. Nvidia Continues to Deliver Strong Earnings
 
 Selling shovels in a gold rush continues to be the right play. Nvidia reported a net income of $43 billion, up $22 billion from just a year ago. What's even crazier is how they did it on just $68.1 billion of sales. 
