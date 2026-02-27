@@ -4,6 +4,8 @@ Paramount increased their bid for [Warner Bros. Discovery (WBD)](https://www.goo
 
 One interesting aspect of this deal is the *regulatory protection* and the "time bomb" fee if the deal is not closed on time. The time bomb is called a ticking fee at \$0.25 per share per quarter if the deal doesn't close after September 30, 2026. This seems like a signal to the shareholder that they have the regulators on Paramount's side, which they probably do with the political coverage they will get from the currently administration.
 
+**Update:** Well..well, as I write this, I just got the news that Netflix is walking away from the deal. Pretty good honestly, they get \$2.8 billions for nothing and Paramount overstretch themselves, so there's a possibility they can purchase the combined company in the future for less money. 
+
 ![[image-6.png]]
 ### 2. Nvidia Continues to Deliver Strong Earnings
 

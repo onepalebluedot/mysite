@@ -1,10 +1,7 @@
 ---
 title: John's Telemetry
 ---
-<style>
-/* Hide the default page title only on the homepage */
-.article-title { display: none !important; }
-</style>
+
 
 <div class="homepage-banner">
   <video class="banner-video" autoplay loop muted playsinline>

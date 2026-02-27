@@ -270,6 +270,11 @@ h6,
     text-transform: uppercase !important;
 }
 
+/* Hide the default page title only on the homepage */
+body[data-slug="index"] .article-title {
+    display: none !important;
+}
+
 /* --- FULL-WIDTH INDEX GIF --- */
 img[src*="_scene_breakdown.gif"] {
     width: 100% !important;

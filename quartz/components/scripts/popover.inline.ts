@@ -99,7 +99,7 @@ async function mouseEnterHandler(
       const elts = [...html.getElementsByClassName("popover-hint")]
       if (elts.length === 0) return
 
-      elts.forEach((elt) => popoverInner.appendChild(elt))
+      elts.forEach((elt) => popoverInner.appendChild(elt.cloneNode(true)))
   }
 
   if (!!document.getElementById(popoverId)) {
