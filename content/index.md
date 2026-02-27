@@ -20,17 +20,18 @@ title: John's Telemetry
 
 You found my site. I'm John and this is my log book, a place where I post writings, ideas, and half-formed thoughts on the things that occupy my mind. Think of it as a digital garden: not everything here is polished, and that's by design. Ideas are meant to evolve, and this is where that happens in the open.
 
-I'm an engineering executive at [General Motors](http://www.gm.com), where I lead the deployment of [[Autonomous Mobile Equipment|AME]]: autonomous mobile robots across GM's manufacturing plants in North America. My work sits at the intersection of industrial automation, robotics, and figuring out how to move things in a factory without a human behind the wheel. It's a space that forces me to think deeply about [[leadership]], systems thinking, and how technology actually lands on a shop floor, not just in a slide deck.
+I'm an engineering executive at [General Motors](http://www.gm.com), where I lead the deployment of [[Autonomous Mobile Equipment|AME]]: autonomous mobile robots across GM's manufacturing plants in North America. My work sits at the intersection of industrial automation, robotics, and figuring out how to move things in a factory without a human behind the wheel. It's a space that forces me to think deeply about [[Leadership Principles|leadership]], systems thinking, and how technology actually lands on a shop floor, not just in a slide deck.
 
-What I Think About
+**What I Think About**
 
-Beyond the day job, a lot of my energy goes into figuring out how to raise a good human being in an increasingly dynamic world, as a girl dad. Some principles will and should never change, and those are the things that matter the most. You'll find some of that thinking here too.
+Beyond the day job, a lot of my energy goes into figuring out how to raise a good human being in an increasingly dynamic world, as a [[Parenting|girl dad]]. Some principles will and should never change, and those are the things that matter the most. You'll find some of that thinking here too.
 
-Start Here
+**Start Here**
 - [[My Bio]] — the longer version of who I am and how I got here
 - [[Projects]] — some of the things I'm tinkering with
 - [[What I Read Recently]] — a collection of things I've read and reflected on
-- [[Leadership Principles]]
+- [[Leadership Principles]] - Important rules I live by in my job
+- [[Books]] - what I've read and have notes on
 
 Have fun, and I hope you stay awhile.
 

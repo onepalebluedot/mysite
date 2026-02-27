@@ -64,7 +64,6 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1.5,
       },
     }),
-    Component.Explorer(),
     Component.Backlinks(),
   ],
 }
@@ -84,7 +83,6 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
   ],
   right: [],
 }

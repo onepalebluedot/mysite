@@ -1,3 +1,8 @@
+---
+tags:
+  - leadership
+  - strategy
+---
 Leadership did not enter my life as an identity. It showed up more like a slow obligation, something I had to grow into before I fully understood what it was asking of me.
 
 When I was younger, I was far more comfortable with equations than with people, and I remembered being labeled as an introvert most of the time. Science and math felt predictable because they were stable. After I [[immigrated]] to the U.S.,  still building confidence in English, I did not see myself as someone who would one day lead teams, shape strategy, or sit in rooms where decisions carried real weight. 
@@ -42,6 +47,8 @@ I try to ask the questions that others hesitate to ask, and I try to name things
 ![[image-4.png]]
 
 ---
+### Principles
+
 Leadership, as I understand it today, is less about dominance or charisma than it is about architecture: creating conditions where clarity can take hold, where standards stay steady, where effort gets recognized. It means demanding excellence without humiliation. Maintaining authority without distance. Balancing empathy with accountability.
 
 I'm still defining my style. But I aim to be consistent, principled, and fair. If I had to summarize where I stand today:
@@ -51,3 +58,5 @@ I'm still defining my style. But I aim to be consistent, principled, and fair. I
 - **High standards without ego.** Like a coach, you get the best from the players.
 - **Recognition with precision.** People want to be seen clearly, not just praised generally.
 - **Authority with accessibility.** Present without being a bottleneck.
+
+$Fin$

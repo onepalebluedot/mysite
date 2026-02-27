@@ -1,8 +1,9 @@
 ---
 tags:
-  - books
   - biography
   - history
+  - book
+  - strategy
 author: Andrew Mango
 ---
 # Atatürk - The Biography of the Founder of Modern Turkey
