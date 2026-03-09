@@ -1,0 +1,1 @@
+My role as an industrial engineer on the all important F-150 program. Pioneering how Ford builds vehicles, especially introducing a full aluminum body for the F-150. 
