@@ -1,3 +1,3 @@
-This is perhaps the most important aspect of my life. People say having a child changes you. For me, it hit immediately. Initially I was obsessive with taking care of my daughter, my wife even joked about me being a better mother. Over time, I realized I needed to let the hand break off and let her grow.
+This is perhaps the most important aspect of my life. People say having a child changes you. For me, it hit immediately. Initially I was obsessive with taking care of my daughter, my wife even joked about me being a better mother. Over time, I realized I needed to let the handbreak off and let her grow.
 
-I read a lot of different styles of parenting and frankly it drilled down to being a good model yourself. At the end of the day, they are a mini version of you. You want this version of you to be better than your current version of you.
+I read a lot of different styles of parenting and frankly it drilled down to being a good model for her. At the end of the day, they are first a mini version of you, then blossom into an independent person. You want this version of you to be better than your current version of you.

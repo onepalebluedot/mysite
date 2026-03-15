@@ -28,7 +28,7 @@ Beyond the day job, a lot of my energy goes into figuring out how to raise a goo
 - [[My Work]] — Major projects I've worked on in my career
 - [[What I Read Recently]] — a collection of things I've read and reflected on
 - [[Leadership Principles]] - Important rules I live by in my job
-- [[Books]] - what I've read and have notes on
+- [[Patents]] - Some of my patents
 
 Have fun, and I hope you stay awhile.
 
